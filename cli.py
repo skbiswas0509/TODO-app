@@ -17,7 +17,7 @@ while True:
 
         todos.append(todo + "\n")
 
-        functions.write_todos(todos)
+        functions.write_todos(todos) 
 
         with open('todos.txt', 'w') as file:
             file.writelines(todos)
