@@ -19,7 +19,7 @@ while True:
 
         functions.write_todos(todos) 
 
-        with open('todos.txt', 'w') as file:
+        with open('venv/todos.txt', 'w') as file:
             file.writelines(todos)
 
     elif user_action.startswith("show"):
